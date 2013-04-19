@@ -1,12 +1,12 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.38.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
 
     % cpansign -v
 
-It would check each file's integrity, as well as the signature's
+It will check each file's integrity, as well as the signature's
 validity.  If "==> Signature verified OK! <==" is not displayed,
 the distribution may already have been compromised, and you should
 not run its Makefile.PL or Build.PL.
@@ -14,18 +14,22 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 ccb41e7dd212313fe78767b52e7035739959e154 Build.PL
-SHA1 34694127ea22f622334b4fe58c33d1205b0033f5 Changes
-SHA1 540f2d8bf0bbc0814269cfb676fca65b3037d35c MANIFEST
-SHA1 def80c3d96ed6bbd119f02abdd5eaa830d0eb031 META.yml
-SHA1 b246af60178bb0a6138a91f993c22a779b288bf4 Makefile.PL
-SHA1 b1aa88e0bbf0eeb0b1f52419c4ebe4ddc383541a README
-SHA1 b02e203863a52d88cd8cd88a0abc50d383af0f20 lib/Probe/Perl.pm
-SHA1 9dd79c4cf103b5d6a887fe09851cafe8baa83702 t/basic.t
+SHA1 4c5ede97450392a60a68d86983f4ca75f654ca41 Changes
+SHA1 730231002579a43ba75250890ad448c4bae80a8a INSTALL
+SHA1 8cb63de1ae4c54a120beb97cacc1fe2efe4d266b LICENSE
+SHA1 b1ad3c2fceb0ece79a87fdcda509cea23bf7d30b MANIFEST
+SHA1 d56191ecb780024e0bbbf54b3caefdffd41d9dce META.yml
+SHA1 0a0077af88f536db6e02f3413c9aacbdf68458a3 Makefile.PL
+SHA1 b7857391631974c5306489a84c86b59c1c24a66c README
+SHA1 b66f24c145e4ff94f78cd47a5c8a86a92e38f7fb dist.ini
+SHA1 afbbb21123cfbf69463b7ec8e4b9d5d25f8c31bf lib/Probe/Perl.pm
+SHA1 fa45d6e6ab1cd421349dea4ef527bfd5cdc8a09e t/author-critic.t
+SHA1 3e24f0b5778bc026ffc9d12b30f69aceb25c988d t/basic.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.2.4 (Darwin)
+Version: GnuPG/MacGPG2 v2.0.17 (Darwin)
+Comment: GPGTools - http://gpgtools.org
 
-iD8DBQFCU1u8grvMBLfvlHYRAvgvAKCe0T2/X9JSNiSlGjSEDAf1clYduACgzW6D
-Ptbzc2VfTK5d2/xyLMfqGs8=
-=oUqL
+iEYEARECAAYFAlFxLKUACgkQgrvMBLfvlHZc2gCbB+oDuFJVR2JfqV8tuuCOKOre
+0pkAnjUVF0CO7wEiFAkCu3YLXWCwQxIl
+=6AGf
 -----END PGP SIGNATURE-----
