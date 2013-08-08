@@ -20,4 +20,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Probe-Perl
   repository: git://github.com/kenahoo/Probe-Perl.git
-version: 0.02
+version: 0.03
